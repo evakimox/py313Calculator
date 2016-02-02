@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+P = raw_input("P Pressure of the atm: ")
+yita = raw_input("Viscosity of the air(Temperature related, find in graph): ")
+b = 8.2*10^(-3)
+rou = 866
+vf = raw_input("vf Downward velocity: ")
+vr = raw_input("vr Rising velocity: ")
+d = raw_input("d Distance between plates: ")
+V = raw_input("V the votage that used: ")
+
+a =sqrt((b/2*P)^2 + (9*yita*vf/(2*9.8*rou)))
+
+
